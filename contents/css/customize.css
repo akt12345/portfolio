@@ -8,7 +8,7 @@
 1. Html / Body
 2. Footer / Social Media Icons
 3. Address / Google Maps / Bootstrap Modal / IFRAME
-4. Menu / Mobile Menu 
+4. Menu / Mobile Menu
 5. Portfolio Content and Customizations / Single Page
 6. Responsive Navigation
 7. Modifications to Bootstrap 4
@@ -159,6 +159,24 @@ body {
     background-color: #f1628b;
 }
 
+.social-icons li.github a {
+    background: url(../images/icons/github.png) no-repeat 0 0;
+}
+
+.social-icons li.github a:hover {
+    background-color: #6cc644;
+}
+
+
+.social-icons li.githubA a {
+    background: url(../images/icons/githubA.png) no-repeat 0 0;
+}
+
+.social-icons li.githubA a:hover {
+    background-color: #6cc644;
+}
+
+
 .social-icons li.google a {
     background: url(../images/icons/google.png) no-repeat 0 0;
 }
@@ -188,6 +206,14 @@ body {
 }
 
 .social-icons li.linkedin a:hover {
+    background-color: #71b2d0;
+}
+
+.social-icons li.linkedinA a {
+    background: url(../images/icons/linkedinA.png) no-repeat 0 0;
+}
+
+.social-icons li.linkedinA a:hover {
     background-color: #71b2d0;
 }
 
@@ -548,7 +574,7 @@ a:focus {
 
 .cbp-slider.cbp {
     margin-right: 0;
-} 
+}
 
 .cbp-item-wrap {
     background: #fff;
